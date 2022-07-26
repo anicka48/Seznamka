@@ -1,11 +1,18 @@
-*{
+>*{
     margin: 0;
     padding: 0;
 
 }
 #banner{
-    background: url(obrazek/What-Does-a-60-Year-Old-Man-Want-in-a-Relationship-980x445.jpg);
+    background: linear-
+    gradient(rgba(0,0,0,0.5),#009688),url(obrazek/banner.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 500px;
+}
+.logo{
+ width: 500px;
+ position: absolute;
+ top:4%
+ left:10%
 }
