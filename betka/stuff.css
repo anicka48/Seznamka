@@ -1,0 +1,16 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+div {
+  text-align: justify;
+}
+
+.textblok {
+  text-align: justify;
+  width: 25%;
+  margin-left: 20%;
+}
