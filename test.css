@@ -1,0 +1,11 @@
+.d-flex{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #d50f7f;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: 3s;
+    }
