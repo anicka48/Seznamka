@@ -1,11 +1,19 @@
-.navbar-brand {
+.navbar-brand,
+.navbar-light {
     font-family: 'Oswald',
         sans-serif;
-    font-size: 3.34pc;
+    font-size: 40px !important;
 }
 
-.nav-link active {
+.nav-link,
+.navbar-light {
+    color: black !important;
     font-family: 'Oswald',
         sans-serif;
-    font-size: 3.34pc;
+    font-size: large;
+}
+
+.úvod {
+    font-family: 'Oswald',
+        sans-serif
 }
