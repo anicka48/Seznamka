@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+
 .navbar-brand,
 .navbar-light {
     font-family: 'Oswald',
@@ -16,4 +19,23 @@
 .úvod {
     font-family: 'Oswald',
         sans-serif
+}
+
+.site-footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.pozice {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+.nadpis {
+    font-family: 'Oswald', sans-serif
+}
+
+.benefity {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
 }
