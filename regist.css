@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+
+.vzhled {
+    margin-bottom: 90px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.reg {
+    font-family: 'Oswald',
+        sans-serif
+}
+
+.rega {
+    font-family: sans-serif;
+}
