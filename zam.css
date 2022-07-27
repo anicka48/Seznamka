@@ -3,10 +3,13 @@
 
 .column {
     float: left;
-    width: 30.3%;
+    width: 30.3% !important;
+    margin-left: 25px;
     margin-bottom: 16px;
-    padding: 0 8px;
+    padding: 17 9px;
     align-content: space-between;
+    justify-content: space-between;
+
 
 }
 
@@ -20,8 +23,10 @@
 
 /* Add some shadows to create a card effect */
 .card {
-    box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.21);
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.537);
     border-style: outset;
+    align-content: space-between;
+    justify-content: space-between;
 }
 
 
@@ -55,5 +60,5 @@
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: rgba(85, 85, 85, 0.656);
 }
