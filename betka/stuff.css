@@ -1,27 +1,7 @@
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
-}
-
-div {
-  text-align: justify;
-}
-
-.textblok {
-  text-align: justify;
-}
-
-.textnimage {
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
-  margin: 50px;
-}
-
-.imageyou {
-  display: flex;
-  float: left;
-  flex-wrap: wrap;
+  align-content: center;
+  margin-left: 500px;
+  margin-right: auto;
 }
