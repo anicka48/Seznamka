@@ -1,27 +1,13 @@
 .center {
   display: block;
+  text-align: center;
+  align-content: space-around;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 
-div {
-  text-align: justify;
-}
-
-.textblok {
-  text-align: justify;
-}
-
-.textnimage {
-  padding: 30px;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
   display: flex;
   justify-content: space-between;
-  margin: 50px;
-}
-
-.imageyou {
-  display: flex;
-  float: left;
-  flex-wrap: wrap;
 }
