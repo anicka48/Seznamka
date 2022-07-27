@@ -11,9 +11,17 @@ div {
 
 .textblok {
   text-align: justify;
-  width: 400px;
 }
 
-.textobrazek {
+.textnimage {
+  padding: 30px;
   display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.imageyou {
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
 }
