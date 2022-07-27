@@ -1,16 +1,16 @@
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
 
-body{
+body {
     width: 100%;
     height: 100vh;
 }
 
-.container{
+.container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -19,7 +19,8 @@ body{
     height: 100%;
     padding: 20px 100px;
 }
-.container::after{
+
+.container::after {
     content: '';
     position: absolute;
     Left: 0;
@@ -32,7 +33,7 @@ body{
     filter: blur(50px);
 }
 
-.contact-box{
+.contact-box {
     max-width: 850px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -40,26 +41,26 @@ body{
     align-items: center;
     text-align: center;
     background-color: #fff;
-    box-shadow: 0px 0px 0px 19px 5px rgba(0,0,0,0.19);
+    box-shadow: 0px 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
 }
 
-.left{
+.left {
     height: 100%;
     background: url("obrazek/k.jpg");
     background-size: cover;
 }
 
-.right{
+.right {
     padding: 25px 40px;
 }
 
-h2{
+h2 {
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 10px;
-}    
+}
 
-h2:after{
+h2:after {
     content: '';
     position: absolute;
     left: 50%;
@@ -69,26 +70,31 @@ h2:after{
     width: 50px;
     border-radius: 2px;
     background-color: #d50f7f;
-}  
-.field{
+}
+
+.field {
     width: 100%;
     padding: 0.5rem 1rem;
     background-color: rgba(230, 230, 230, 0.333);
     font-size: 1.1rem;
     margin-bottom: 22px;
     transition: .3s;
-} 
-.field:hover{
-    background-color: rgba(0,0,0,0.1);
 }
-.field:focus{
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus {
     background-color: #fff;
-    border: 2px solid rgba(30,85,250,0.47);
+    border: 2px solid rgba(30, 85, 250, 0.47);
 }
-.area{
+
+.area {
     min-height: 150px;
 }
-.btn{
+
+.btn {
     width: 100%;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
@@ -99,18 +105,20 @@ h2:after{
     color: #fff;
     transition: 3s;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #d50f7f;
 }
 
 
 
-@media screen and (max-width:880px){
-    .contact-box{
+@media screen and (max-width:880px) {
+    .contact-box {
         grid-template-columns: 1fr;
 
-    }  
-    .left{
+    }
+
+    .left {
         height: 200px;
     }
 }
