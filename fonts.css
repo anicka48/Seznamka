@@ -12,7 +12,7 @@
 .navbar-light {
     color: black !important;
     font-family: 'Oswald',
-        sans-serif;
+        sans-serif !important;
     font-size: large;
 }
 
@@ -46,6 +46,6 @@
 }
 
 .card {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif !important;
     font-weight: 400;
 }
