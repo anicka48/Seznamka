@@ -12,8 +12,13 @@
 .navbar-light {
     color: black !important;
     font-family: 'Oswald',
-        sans-serif;
+        sans-serif !important;
     font-size: large;
+}
+
+.btn {
+    background-color: #a8065f !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .úvod {
@@ -41,6 +46,11 @@
 }
 
 .card {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 400;
+}
+
+.jej {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
