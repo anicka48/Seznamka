@@ -12,6 +12,11 @@
         sans-serif
 }
 
+.btn {
+    background-color: #a8065f !important;
+    color: rgb(255, 255, 255) !important;
+}
+
 .rega {
     font-family: sans-serif;
 }
