@@ -11,12 +11,29 @@
     <link rel="stylesheet" href="../zam.css">
     <link rel="stylesheet" href="../fonts.css">
     <link rel="stylesheet" href="../seznamka.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="fonts.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="forfuture.css">
 
+    <!--Linky na fonty-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+    </style>
     <style>
         a:link {
             color: rgb(193, 37, 107);
@@ -43,426 +60,424 @@
 
         }
     </style>
+
 </head>
 
 <body>
-    <!-- začátek navbaru-->
-    <div>
-        <nav class="navbar navbar-light" style="background-color: #a8065f;"></nav>
+    <nav class="navbar navbar-light" style="background-color: #a8065f;"></nav>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">LOVEINOLD</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Úvod.html">Domů</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Seznamka.html">Seznamka</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Místa setkání a kontakty
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Místa setkání</a></li>
-                                <li><a class="dropdown-item" href="kontaktujtenas.html">Kontaktujte</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hej" href="zamestnanci.html">Zaměstnanci</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hej" href="regist.html">Registrace</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder=" . . ." aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Hledej</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-        <hr>
-        <!-- konec navbaru -->
-
-        <div style="border: 10px solid #a8065f; padding: 30px; margin: 50px; background-color:#ffffff;">
-
-            <div style="text-align:justify">
-                <h2>Naše Kavárny</h2>
-                <p>Součástí našich služeb je síť kaváren, které jsou rozmístěny po celé ČR. Prostředí všech našich
-                    kaváren
-                    Vám zajistí příjemný pobyt v krásných lokacích, dobré jídlo i pití
-                    a pocit bezpečí pokud nevíte s kým se scházíte - vše je pod dohledem bodyguardů se zaměřením na
-                    ochranu
-                    seniorů.<br>
-                    Níže můžete najít seznam našich kaváren s odkazy na jejich vlastní webové stránky s více
-                    informacemi.
-                </p>
-            </div>
-
-
-
-        </div>
-
-
-        <div style="border: 10px solid #a8065f; padding: 30px; margin: 50px; background-color:#ffffff;">
-
-            <div style="text-align:justify" class="textkavarny">
-                <h2>Naše Kavárny</h2>
-                <p>
-                <ul>
-                    <!-- unordered list -->
-                    <li><b><u>Kavárna Kočka</u></b><br>
-                        <br>
-                        Kavárna Kočka se nachází poblíž centra <span style="color: #a8065f">Prahy</span> s nádherným
-                        výhledem na Pražský hrad. Přijďte sem se
-                        svými novými přáteli a užívejte si krásný výhled s hrnkem kávy v ruce! Přítomnost koček
-                        zaručena.<br>
-                        Adresa: <span style="color: #a8065f">Novotného lávka 110 00, 110 00 Staré Město,
-                            Praha</span><br>
-                        <br>
-                        Klikněte <a href="http://127.0.0.1:5500/betka/odkazy/kavarnakocka.html"><span
-                                style="color: #a8065f">zde</span></a> pro zobrazení webové stránky Kavárny Kočka
-                        <br>
-                        <br>
-                        <div class=" mapouter">
-                            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0"
-                                    scrolling="no" marginheight="0" marginwidth="0"
-                                    src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Vyhlídka na Pražský hrad, Novotného lávka 110 00, 110 00 Staré Město&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                            </div>
-                            <style>
-                                .mapouter {
-                                    position: relative;
-                                    text-align: right;
-                                    width: 100%;
-                                    height: 400px;
-                                }
-
-                                .gmap_canvas {
-                                    overflow: hidden;
-                                    background: none !important;
-                                    width: 100%;
-                                    height: 400px;
-                                }
-
-                                .gmap_iframe {
-                                    height: 400px !important;
-                                }
-                            </style>
-                        </div>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOVEINOLD</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Úvod.html">Domů</a>
                     </li>
-
-
-
-
-
-                    <li><b><u>Kavárna Veverka</u></b><br>
-                        Kavárna Veverka je unikátní příležitost vidět svět z výšky. Navštivte naši unikátní kavárnu v
-                        korunách stromů poblíž <span style="color: #a8065f">Brna</span>. Výtah zajištěn.<br>
-                        Adresa: <span style="color: #a8065f">Nad Pisárkami 276, Brno-Kohoutovice, 623 00 Brno</span><br>
-                        <br>
-                        Klikněte <a href="http://127.0.0.1:5500/betka/odkazy/kavarnaveverka.html"><span
-                                style="color: #a8065f">zde</span></a> pro zobrazení
-                        webové stránky Kavárny Veverka
-                        <br>
-                        <br>
-
-                        <div class=" mapouter">
-                            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0"
-                                    scrolling="no" marginheight="0" marginwidth="0"
-                                    src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Nad Pisárkami 276, Brno-Kohoutovice, 623 00 Brno&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                            </div>
-                            <style>
-                                .mapouter {
-                                    position: relative;
-                                    text-align: right;
-                                    width: 100%;
-                                    height: 400px;
-                                }
-
-                                .gmap_canvas {
-                                    overflow: hidden;
-                                    background: none !important;
-                                    width: 100%;
-                                    height: 400px;
-                                }
-
-                                .gmap_iframe {
-                                    height: 400px !important;
-                                }
-                            </style>
-                        </div>
-
-
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Seznamka.html">Seznamka</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="true">
+                            Místa setkání a kontakty
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
+                            <li><a class="dropdown-item" href="#">Místa setkání</a></li>
+                            <li><a class="dropdown-item" href="kontaktujtenas.html">Kontaktujte</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
 
-
-
-
-                    <li><b><u>Kavárna Morče</u></b><br>
-                        Kavárna Morče nabízí příjemné a klidné prostředí s mhnoha místy k sezení nebo i k ležení, vše v
-                        krásném prostředí nádherné zenové zahrádky s měkkým kobercem ze zelené trávy. Uvnitř kavárny si
-                        pak
-                        můžete za drobný příspěvek místnímu útulku v <span style="color: #a8065f">Plzni</span> zapůjčit
-                        morče na hlídaní venku, což pomáhá při relaxaci.<br>
-                        Adresa: <span style="color: #a8065f">Pod Všemi svatými 17, 301 00 Plzeň 1</span><br>
-                        <br>
-                        Klikněte <a href="http://127.0.0.1:5500/betka/odkazy/kavarnamorce.html"><span
-                                style="color: #a8065f">zde</span></a> pro zobrazení webové
-                        stránky Kavárny Morče
-                        <br>
-                        <br>
-
-                        <div class=" mapouter">
-                            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0"
-                                    scrolling="no" marginheight="0" marginwidth="0"
-                                    src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Pod Všemi svatými 17, 301 00 Plzeň 1&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                            </div>
-                            <style>
-                                .mapouter {
-                                    position: relative;
-                                    text-align: right;
-                                    width: 100%;
-                                    height: 400px;
-                                }
-
-                                .gmap_canvas {
-                                    overflow: hidden;
-                                    background: none !important;
-                                    width: 100%;
-                                    height: 400px;
-                                }
-
-                                .gmap_iframe {
-                                    height: 400px !important;
-                                }
-                            </style>
-                        </div>
-
-
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+                        </ul>
                     </li>
-
-
-
-
-
-                    <li><b><u>Kavárna Doge</u></b><br>
-                        Kavárna Doge se nachází uprosřed krásného parku v areálu <span
-                            style="color: #a8065f">Františkových
-                            Lázní</span>, plném nádherných vodních fontán, květinových zahrad a kvetoucích stromů. Jako
-                        bonus k návštěvě Kavárny Doge navíc získáte i slevový kupón na pobyt v již zmíněných
-                        Františkových
-                        Lázních. Pár minut chůze od kavárny se nachází i malý park pro psy, takže s sebou neváhejte vzít
-                        i
-                        své malé chlupaté přátele! Zaměstnanci kavárny vám popřípadě s radostí poskytnou vodu i pamlsky
-                        pro
-                        vaše psy.<br>
-                        Adresa: <span style="color: #a8065f">Klostermannova 92, 351 01 Františkovy Lázně</span><br>
-                        <br>
-                        Klikněte <a href="http://127.0.0.1:5500/betka/odkazy/kavarnadoge.html"><span
-                                style="color: #a8065f">zde</span></a> pro zobrazení
-                        webové
-                        stránky Kavárny Doge
-                        <br>
-                        <br>
-
-
-                        <div class=" mapouter">
-                            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0"
-                                    scrolling="no" marginheight="0" marginwidth="0"
-                                    src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Klostermannova 92, 351 01 Františkovy Lázně&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                            </div>
-                            <style>
-                                .mapouter {
-                                    position: relative;
-                                    text-align: right;
-                                    width: 100%;
-                                    height: 400px;
-                                }
-
-                                .gmap_canvas {
-                                    overflow: hidden;
-                                    background: none !important;
-                                    width: 100%;
-                                    height: 400px;
-                                }
-
-                                .gmap_iframe {
-                                    height: 400px !important;
-                                }
-                            </style>
-                        </div>
-
-
-
-                        <br>
-                        <br>
-                        <br>
-                        <br>
+                    <li class="nav-item">
+                        <a class="nav-link hej" href="zamestnanci.html">Zaměstnanci</a>
                     </li>
-
-
-
-
-
-                    <li><b><u>Kavárna Monke</u></b><br>
-                        Kavárna Monke je velmi oblíbená kavárna hned u vstupu do <span style="color: #a8065f">Pražské
-                            ZOO</span>. Proč neoživit své mládí a nevyrazit s přáteli objevovat říši zvířat? Kavárna
-                        Monke
-                        navíc poskytuje zdarma prohlídku opičího pavilonu i s profesionálním průvodcem.<br>
-                        Adresa: <span style="color: #a8065f">Pražská Zoo, U Trojského zámku 120/3, 171 00 Praha
-                            7</span><br>
-                        <br>
-                        Klikněte <a href="http://127.0.0.1:5500/betka/odkazy/kavarnamonke.html"><span
-                                style="color: #a8065f">zde</span></a> pro
-                        zobrazení webové stránky Kavárny Monke
-                        <br>
-                        <br>
-
-                        <div class=" mapouter">
-                            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0"
-                                    scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Pražská Zoo, U Trojského zámku 120/3, 171 00 Praha
-                                    7&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                            </div>
-                            <style>
-                                .mapouter {
-                                    position: relative;
-                                    text-align: right;
-                                    width: 100%;
-                                    height: 400px;
-                                }
-
-                                .gmap_canvas {
-                                    overflow: hidden;
-                                    background: none !important;
-                                    width: 100%;
-                                    height: 400px;
-                                }
-
-                                .gmap_iframe {
-                                    height: 400px !important;
-                                }
-                            </style>
-                        </div>
-
-
-
+                    <li class="nav-item">
+                        <a class="nav-link hej" href="regist.html">Registrace</a>
                     </li>
                 </ul>
-                </p>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder=" . . ." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Hledej</button>
+                </form>
             </div>
+        </div>
+    </nav>
+    <!-- konec navbaru -->
 
+    <div style="border: 10px solid #a8065f; padding: 30px; margin: 50px; background-color:#ffffff;">
 
-
+        <div style="text-align:justify">
+            <h2>Naše Kavárny</h2>
+            <p>Součástí našich služeb je síť kaváren, které jsou rozmístěny po celé ČR. Prostředí všech našich
+                kaváren
+                Vám zajistí příjemný pobyt v krásných lokacích, dobré jídlo i pití
+                a pocit bezpečí pokud nevíte s kým se scházíte - vše je pod dohledem bodyguardů se zaměřením na
+                ochranu
+                seniorů.<br>
+                Níže můžete najít seznam našich kaváren s odkazy na jejich vlastní webové stránky s více
+                informacemi.
+            </p>
         </div>
 
 
 
+    </div>
 
 
+    <div style="border: 10px solid #a8065f; padding: 30px; margin: 50px; background-color:#ffffff;">
 
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-        <title>Bootstrap Footer Examples 2020</title>
-
-        <body>
-            <footer class="site-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-8">
-                            <h6>Kde nás najdete?</h6>
-                            <p class="text-justify">
-                            <address>
-                                Václavská 316<br>
-                                120 00 Nové Město<br>
-                                Česká republika
-                            </address>
-                            </p>
+        <div style="text-align:justify" class="textkavarny">
+            <h2>Naše Kavárny</h2>
+            <p>
+            <ul>
+                <!-- unordered list -->
+                <li><b><u>Kavárna Kočka</u></b><br>
+                    <br>
+                    Kavárna Kočka se nachází poblíž centra <span style="color: #a8065f">Prahy</span> s nádherným
+                    výhledem na Pražský hrad. Přijďte sem se
+                    svými novými přáteli a užívejte si krásný výhled s hrnkem kávy v ruce! Přítomnost koček
+                    zaručena.<br>
+                    Adresa: <span style="color: #a8065f">Novotného lávka 110 00, 110 00 Staré Město,
+                        Praha</span><br>
+                    <br>
+                    Klikněte <a href="http://127.0.0.1:5500/betka/odkazy/kavarnakocka.html"><span
+                            style="color: #a8065f">zde</span></a> pro zobrazení webové stránky Kavárny Kočka
+                    <br>
+                    <br>
+                    <div class=" mapouter">
+                        <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                                marginheight="0" marginwidth="0"
+                                src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Vyhlídka na Pražský hrad, Novotného lávka 110 00, 110 00 Staré Město&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                         </div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                width: 100%;
+                                height: 400px;
+                            }
 
-                        <div class="col-xs-6 col-md-3 mt-3 mb-5">
-                            <h6>Naše socialní sítě</h6>
-                            <ul class="footer-links">
-                                <li><a href="https://www.instagram.com/loveinold/?hl=cs">instagram</a></li>
-                                <li><a href="https://twitter.com/?lang=cs">twitter</a></li>
-                                <li><a
-                                        href="https://www.facebook.com/campaign/landing.php?campaign_id=11601506093&extra_1=s%7Cc%7C479241139801%7Ce%7Cfacebook%20%27%7C&placement=&creative=479241139801&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D11601506093%26adgroupid%3D113925584380%26matctype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-360705453827%26loc_physical_ms%3D9062892%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIxsjJ9szi8QIViOR3Ch0p6w-AEAAYASAAEgL4efD_BwE">facebook</a>
-                                </li>
-                            </ul>
-                        </div>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                width: 100%;
+                                height: 400px;
+                            }
+
+                            .gmap_iframe {
+                                height: 400px !important;
+                            }
+                        </style>
                     </div>
-                    <hr>
-                </div>
-    </div>
-    </div>
-    </footer>
-    <div class=" mapouter">
-        <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
-                marginheight="0" marginwidth="0"
-                src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Václavská 316 120 00 Nové Město&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-                href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF
-                Mods</a>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </li>
+
+
+
+
+
+                <li><b><u>Kavárna Veverka</u></b><br>
+                    Kavárna Veverka je unikátní příležitost vidět svět z výšky. Navštivte naši unikátní kavárnu v
+                    korunách stromů poblíž <span style="color: #a8065f">Brna</span>. Výtah zajištěn.<br>
+                    Adresa: <span style="color: #a8065f">Nad Pisárkami 276, Brno-Kohoutovice, 623 00 Brno</span><br>
+                    <br>
+                    Klikněte <a href="http://127.0.0.1:5500/betka/odkazy/kavarnaveverka.html"><span
+                            style="color: #a8065f">zde</span></a> pro zobrazení
+                    webové stránky Kavárny Veverka
+                    <br>
+                    <br>
+
+                    <div class=" mapouter">
+                        <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                                marginheight="0" marginwidth="0"
+                                src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Nad Pisárkami 276, Brno-Kohoutovice, 623 00 Brno&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        </div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                width: 100%;
+                                height: 400px;
+                            }
+
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                width: 100%;
+                                height: 400px;
+                            }
+
+                            .gmap_iframe {
+                                height: 400px !important;
+                            }
+                        </style>
+                    </div>
+
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </li>
+
+
+
+
+
+                <li><b><u>Kavárna Morče</u></b><br>
+                    Kavárna Morče nabízí příjemné a klidné prostředí s mhnoha místy k sezení nebo i k ležení, vše v
+                    krásném prostředí nádherné zenové zahrádky s měkkým kobercem ze zelené trávy. Uvnitř kavárny si
+                    pak
+                    můžete za drobný příspěvek místnímu útulku v <span style="color: #a8065f">Plzni</span> zapůjčit
+                    morče na hlídaní venku, což pomáhá při relaxaci.<br>
+                    Adresa: <span style="color: #a8065f">Pod Všemi svatými 17, 301 00 Plzeň 1</span><br>
+                    <br>
+                    Klikněte <a href="http://127.0.0.1:5500/betka/odkazy/kavarnamorce.html"><span
+                            style="color: #a8065f">zde</span></a> pro zobrazení webové
+                    stránky Kavárny Morče
+                    <br>
+                    <br>
+
+                    <div class=" mapouter">
+                        <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                                marginheight="0" marginwidth="0"
+                                src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Pod Všemi svatými 17, 301 00 Plzeň 1&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        </div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                width: 100%;
+                                height: 400px;
+                            }
+
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                width: 100%;
+                                height: 400px;
+                            }
+
+                            .gmap_iframe {
+                                height: 400px !important;
+                            }
+                        </style>
+                    </div>
+
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </li>
+
+
+
+
+
+                <li><b><u>Kavárna Doge</u></b><br>
+                    Kavárna Doge se nachází uprosřed krásného parku v areálu <span style="color: #a8065f">Františkových
+                        Lázní</span>, plném nádherných vodních fontán, květinových zahrad a kvetoucích stromů. Jako
+                    bonus k návštěvě Kavárny Doge navíc získáte i slevový kupón na pobyt v již zmíněných
+                    Františkových
+                    Lázních. Pár minut chůze od kavárny se nachází i malý park pro psy, takže s sebou neváhejte vzít
+                    i
+                    své malé chlupaté přátele! Zaměstnanci kavárny vám popřípadě s radostí poskytnou vodu i pamlsky
+                    pro
+                    vaše psy.<br>
+                    Adresa: <span style="color: #a8065f">Klostermannova 92, 351 01 Františkovy Lázně</span><br>
+                    <br>
+                    Klikněte <a href="http://127.0.0.1:5500/betka/odkazy/kavarnadoge.html"><span
+                            style="color: #a8065f">zde</span></a> pro zobrazení
+                    webové
+                    stránky Kavárny Doge
+                    <br>
+                    <br>
+
+
+                    <div class=" mapouter">
+                        <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                                marginheight="0" marginwidth="0"
+                                src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Klostermannova 92, 351 01 Františkovy Lázně&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        </div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                width: 100%;
+                                height: 400px;
+                            }
+
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                width: 100%;
+                                height: 400px;
+                            }
+
+                            .gmap_iframe {
+                                height: 400px !important;
+                            }
+                        </style>
+                    </div>
+
+
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </li>
+
+
+
+
+
+                <li><b><u>Kavárna Monke</u></b><br>
+                    Kavárna Monke je velmi oblíbená kavárna hned u vstupu do <span style="color: #a8065f">Pražské
+                        ZOO</span>. Proč neoživit své mládí a nevyrazit s přáteli objevovat říši zvířat? Kavárna
+                    Monke
+                    navíc poskytuje zdarma prohlídku opičího pavilonu i s profesionálním průvodcem.<br>
+                    Adresa: <span style="color: #a8065f">Pražská Zoo, U Trojského zámku 120/3, 171 00 Praha
+                        7</span><br>
+                    <br>
+                    Klikněte <a href="http://127.0.0.1:5500/betka/odkazy/kavarnamonke.html"><span
+                            style="color: #a8065f">zde</span></a> pro
+                    zobrazení webové stránky Kavárny Monke
+                    <br>
+                    <br>
+
+                    <div class=" mapouter">
+                        <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                                marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Pražská Zoo, U Trojského zámku 120/3, 171 00 Praha
+                                    7&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        </div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                width: 100%;
+                                height: 400px;
+                            }
+
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                width: 100%;
+                                height: 400px;
+                            }
+
+                            .gmap_iframe {
+                                height: 400px !important;
+                            }
+                        </style>
+                    </div>
+
+
+
+                </li>
+            </ul>
+            </p>
         </div>
-        <style>
-            .mapouter {
-                position: relative;
-                text-align: right;
-                width: 100%;
-                height: 400px;
-            }
 
-            .gmap_canvas {
-                overflow: hidden;
-                background: none !important;
-                width: 100%;
-                height: 400px;
-            }
 
-            .gmap_iframe {
-                height: 400px !important;
-            }
-        </style>
+
     </div>
 
-    <nav class="navbar navbar-light" style="background-color: #a8065f;"></nav>
-    <!-----Konec zápatí-->
+
+
+
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Bootstrap Footer Examples 2020</title>
+
+    <body>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-8">
+                        <h6>Kde nás najdete?</h6>
+                        <p class="text-justify">
+                        <address>
+                            Václavská 316<br>
+                            120 00 Nové Město<br>
+                            Česká republika
+                        </address>
+                        </p>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3 mt-3 mb-5">
+                        <h6>Naše socialní sítě</h6>
+                        <ul class="footer-links">
+                            <li><a href="https://www.instagram.com/loveinold/?hl=cs">instagram</a></li>
+                            <li><a href="https://twitter.com/?lang=cs">twitter</a></li>
+                            <li><a
+                                    href="https://www.facebook.com/campaign/landing.php?campaign_id=11601506093&extra_1=s%7Cc%7C479241139801%7Ce%7Cfacebook%20%27%7C&placement=&creative=479241139801&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D11601506093%26adgroupid%3D113925584380%26matctype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-360705453827%26loc_physical_ms%3D9062892%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIxsjJ9szi8QIViOR3Ch0p6w-AEAAYASAAEgL4efD_BwE">facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            </div>
+            </div>
+        </footer>
+        <div class=" mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                    marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=784&amp;height=400&amp;hl=en&amp;q=Václavská 316 120 00 Nové Město&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                    href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF
+                    Mods</a>
+            </div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    width: 100%;
+                    height: 400px;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    width: 100%;
+                    height: 400px;
+                }
+
+                .gmap_iframe {
+                    height: 400px !important;
+                }
+            </style>
+        </div>
+
+        <nav class="navbar navbar-light" style="background-color: #a8065f;"></nav>
+        <!-----Konec zápatí-->
 
 
 
 
 
 
-</body>
+    </body>
 
 </html>
