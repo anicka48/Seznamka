@@ -16,6 +16,11 @@
     font-size: large;
 }
 
+.btn {
+    background-color: #a8065f !important;
+    color: rgb(255, 255, 255) !important;
+}
+
 .úvod {
     font-family: 'Oswald',
         sans-serif
