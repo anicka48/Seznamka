@@ -4,12 +4,29 @@
     <title>Zaměstnanci</title>
     <link rel="stylesheet" href="zam.css">
     <link rel="stylesheet" href="fonts.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="fonts.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="forfuture.css">
 
+    <!--Linky na fonty-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+    </style>
     <style>
         a:link {
             color: rgb(193, 37, 107);
@@ -36,151 +53,152 @@
 
         }
     </style>
+
 </head>
 
 <body>
-    <div>
-        <nav class="navbar navbar-light" style="background-color: #a8065f;"></nav>
+    <nav class="navbar navbar-light" style="background-color: #a8065f;"></nav>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">LOVEINOLD</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Úvod.html">Domů</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Seznamka.html">Seznamka</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Místa setkání a kontakt
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Místa setkání</a></li>
-                                <li><a class="dropdown-item" href="kontaktujtenas.html">Kontaktujte</a></li>
-                                <li>
-                                    <hr class="dropdown-divider" !important>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hej" href="zamestnanci.html">Zaměstnanci</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOVEINOLD</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Úvod.html">Domů</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Seznamka.html">Seznamka</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="true">
+                            Místa setkání a kontakty
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hej" href="regist.html">Registrace</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder=" . . ." aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Hledej</button>
-                    </form>
-                </div>
+                            <li><a class="dropdown-item" href="#">Místa setkání</a></li>
+                            <li><a class="dropdown-item" href="kontaktujtenas.html">Kontaktujte</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hej" href="zamestnanci.html">Zaměstnanci</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hej" href="regist.html">Registrace</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder=" . . ." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Hledej</button>
+                </form>
             </div>
-        </nav>
+        </div>
+    </nav>
 
 
 
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                    <img src="obrazek/a.jpg" alt="Květoslava" style="width:100%">
-                    <div class="container">
-                        <h2>Květoslava</h2>
-                        <p class="title">Lovkyně a pozorovatelka</p>
-                        <p>věk: 65<br>
-                            <br> Nikdy napoznala pravou lásku, a proto spoluzaložila seznamku a stále hledá.
-                        </p>
-                        <p>kvetinka25@seznam.cz</p>
-                        <p><button class="button">Kontaktuj</button></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <img src="obrazek/c.jpg" alt="Eustác" style="width:100%">
-                    <div class="container">
-                        <h2>Eustác</h2>
-                        <p class="title">Vztahový odborník</p>
-                        <p>věk: 78<br><br>
-                            V mládí zkusil několik seznamek a žádná nefungovala. Proto spoluzaložil LoveinOld.</p>
-                        <p>eus_tac3@icloud.com</p>
-                        <p><button class="button">Kontaktuj</button></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <img src="obrazek/b.jpg" alt="Hildegarda" style="width:100%">
-                    <div class="container">
-                        <h2>Hildegarda</h2>
-                        <p class="title">Pozorovatelka</p>
-                        <p>věk: 73<br><br>
-                            Vdova, ale i v tomto věku si našla lásku a snaží se poštěstit seznamkou i ostatním.</p>
-                        <p>hilda-pilda@gmail.com</p>
-                        <p><button class="button">Kontaktuj</button></p>
-                    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="obrazek/a.jpg" alt="Květoslava" style="width:100%">
+                <div class="container">
+                    <h2>Květoslava</h2>
+                    <p class="title">Lovkyně a pozorovatelka</p>
+                    <p>věk: 65<br>
+                        <br> Nikdy napoznala pravou lásku, a proto spoluzaložila seznamku a stále hledá.
+                    </p>
+                    <p>kvetinka25@seznam.cz</p>
+                    <p><button class="button">Kontaktuj</button></p>
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
 
-
-
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-        <title>Bootstrap Footer Examples 2020</title>
-        </head>
-
-
-        <br> <br>
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-8">
-                        <h6>Kde nás najdete?</h6>
-                        <p class="text-justify">
-                        <address>
-                            Václavská 316<br>
-                            120 00 Nové Město<br>
-                            Česká republika
-                        </address>
-                        </p>
-                    </div>
-
-                    <div class="col-xs-6 col-md-3 mt-3 mb-5">
-                        <h6>Naše socialní sítě</h6>
-                        <ul class="footer-links">
-                            <li><a href="https://www.instagram.com/loveinold/?hl=cs">instagram</a></li>
-                            <li><a href="https://twitter.com/?lang=cs">twitter</a></li>
-                            <li><a
-                                    href="https://www.facebook.com/campaign/landing.php?campaign_id=11601506093&extra_1=s%7Cc%7C479241139801%7Ce%7Cfacebook%20%27%7C&placement=&creative=479241139801&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D11601506093%26adgroupid%3D113925584380%26matctype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-360705453827%26loc_physical_ms%3D9062892%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIxsjJ9szi8QIViOR3Ch0p6w-AEAAYASAAEgL4efD_BwE">facebook</a>
-                            </li>
-                        </ul>
-                    </div>
+        <div class="column">
+            <div class="card">
+                <img src="obrazek/c.jpg" alt="Eustác" style="width:100%">
+                <div class="container">
+                    <h2>Eustác</h2>
+                    <p class="title">Vztahový odborník</p>
+                    <p>věk: 78<br><br>
+                        V mládí zkusil několik seznamek a žádná nefungovala. Proto spoluzaložil LoveinOld.</p>
+                    <p>eus_tac3@icloud.com</p>
+                    <p><button class="button">Kontaktuj</button></p>
                 </div>
-                <hr>
             </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="obrazek/b.jpg" alt="Hildegarda" style="width:100%">
+                <div class="container">
+                    <h2>Hildegarda</h2>
+                    <p class="title">Pozorovatelka</p>
+                    <p>věk: 73<br><br>
+                        Vdova, ale i v tomto věku si našla lásku a snaží se poštěstit seznamkou i ostatním.</p>
+                    <p>hilda-pilda@gmail.com</p>
+                    <p><button class="button">Kontaktuj</button></p>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
+    <br>
+    <br>
+    <br>
+
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Bootstrap Footer Examples 2020</title>
+    </head>
+
+
+    <br> <br>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <h6>Kde nás najdete?</h6>
+                    <p class="text-justify">
+                    <address>
+                        Václavská 316<br>
+                        120 00 Nové Město<br>
+                        Česká republika
+                    </address>
+                    </p>
+                </div>
+
+                <div class="col-xs-6 col-md-3 mt-3 mb-5">
+                    <h6>Naše socialní sítě</h6>
+                    <ul class="footer-links">
+                        <li><a href="https://www.instagram.com/loveinold/?hl=cs">instagram</a></li>
+                        <li><a href="https://twitter.com/?lang=cs">twitter</a></li>
+                        <li><a
+                                href="https://www.facebook.com/campaign/landing.php?campaign_id=11601506093&extra_1=s%7Cc%7C479241139801%7Ce%7Cfacebook%20%27%7C&placement=&creative=479241139801&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D11601506093%26adgroupid%3D113925584380%26matctype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-360705453827%26loc_physical_ms%3D9062892%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIxsjJ9szi8QIViOR3Ch0p6w-AEAAYASAAEgL4efD_BwE">facebook</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        </div>
+        </div>
     </footer>
     <div class=" mapouter">
         <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
